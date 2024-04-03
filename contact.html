@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Luxe&Boujie</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <div class="logo">
+                    <i class="las la-crown"></i>
+                    <h1>LUXE&BOUJIE</h1>
+                </div>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <div class="nav-icon">
+                    <i class="las la-times" onclick="hideMenu()"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="galary.html">GALLERY</a></li>
+                </ul>
+            </div>
+            <div class="nav-icon">
+                <i class="las la-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>Where Every Detail Exudes Excellence</h1>
+            <p> 
+                At Luxe&Boujie, we believe in transforming your event into an unforgettable experience.
+                From expertly crafted cuisine to impeccable service, our team of professionals is dedicated to exceeding your expectations.<br>
+                Whether you're hosting an intimate gathering or a lavish celebration, we're here to make it extraordinary. <br>
+                Hire us and let us bring luxury and sophistication to your event
+            </p>
+            <a href="" class="intro-btn">Contact Us Now</a>
+        </div>
+    </section>
+    <section class="location">
+        <h1>Contact Us</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.6924175778595!2d28.233777699999997!3d-26.010891299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956bbec073811f%3A0x8b0e9b1dbc740032!2s10919%20Kangaroo%20St%2C%20Tembisa%2C%20Thembisa%2C%201628!5e0!3m2!1sen!2sza!4v1712147742564!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="cont-us">
+        
+        <div class="row">
+            <div class="cont-col">
+                <div>
+                    <i class="las la-home"></i>
+                    <span>
+                        <h5>
+                            10919 Kangaroo Crescent
+                            
+                        </h5>
+                        <p>Thembisa 1632</p>
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="cont-col">
+                <div>
+                    <i class="las la-phone-volume"></i>
+                    <span>
+                        <h5>
+                            +27 68 331 1201
+                            
+                        </h5>
+                        <p>Monday to friday, 08AM to 6PM</p>
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="cont-col">
+                <div>
+                    <i class="las la-envelope"></i>
+                    <span>
+                        <h5>
+                            luxeandboujieeventsstaffing@gmail.com
+                            
+                        </h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="cont-col">
+                <form action="https://formsubmit.co/luxeandboujieeventsstaffing@gmail.com" method="POST">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="footer">
+        <h4>
+            LUXE&BOUJIE
+        </h4>
+        <p>
+            Where Every Detail Exudes Excellence
+        </p>
+        <div class="icons">
+            <i class="lab la-facebook"></i>
+            <i class="lab la-instagram"></i>
+            <i class="lab la-tiktok"></ i>
+        </div>
+
+    </section>   
+    <!--JS For Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+    </script>
+</body>
+</html>
