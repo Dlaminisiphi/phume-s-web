@@ -110,6 +110,9 @@ nav{
     display: none;
 }
 @media(max-width: 700px){
+    body, html {
+        overflow-x: hidden;
+    }
     .text-box h1{
         font-size: 22px;
     }
@@ -122,7 +125,7 @@ nav{
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: -100%;
         text-align: left;
         z-index: 2;
         transition: 1s;
@@ -216,11 +219,12 @@ nav{
         margin-top: 30px;
     }
 
+
+
     .about-us{
         margin: 0px;
     }
     .about-container{
-        width: 100%;
         flex-direction: column;
         margin: 0px;
         padding: 0px 40px;
@@ -234,7 +238,7 @@ nav{
     }
     .about-us-content p{
         margin-bottom: 20px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .about-us-content button{
         font-size: 15px;
@@ -446,7 +450,7 @@ nav{
     padding: 0;
 }
 .cont-col div h5{
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 5px;
     color: #555 ;
     font-weight: 400;
