@@ -588,6 +588,24 @@ nav{
     display: block;
     margin: 0 auto;
 }
+.bartending-service {
+    padding: 2rem;
+    margin: 1rem; 
+    position: relative;
+}
+.bartending-service ul li {
+    margin-bottom: 15px;
+    align-items: center; 
+    align-items: center; 
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.bartending-service ul li .las {
+    margin-right: 10px; 
+    vertical-align: middle;
+    align-items: center; 
+}
 .price-wrapper{
     display: flex;
     flex-direction: column;
@@ -605,6 +623,31 @@ nav{
 }
 .price-wrapper:hover{
     transform: scale(1.1);
+}
+.bartending-service h3 {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 40px;
+
+}
+.bartending-service h3::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%);
+    width: 100px;
+    height: 5px;
+    background: #966919;
+
+
+}
+.bartending-service ul{
+    position: relative;
+    text-align: center;
+    list-style: none;
 }
 .price-header{
     margin: 1rem;
@@ -635,6 +678,27 @@ nav{
 .price-header >img{
     display: block;
     margin: 0 auto;
+}
+.bartending-service h1{
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.bartending-service h1::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%);
+    width: 100px;
+    height: 5px;
+    background: #966919;
+
+
 }
 .price-wrapper:hover .price-header h2{
     transform: scale(1.1);
