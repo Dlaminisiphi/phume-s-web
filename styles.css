@@ -574,3 +574,90 @@ nav{
 
 
 }
+
+/*SERVICES Pricing*/
+.price-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+}
+.price-header{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.price-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow:0 5px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22)  ;
+    padding: 2rem;
+    margin: 1rem; 
+    transition: all 0.2s ease-in ;
+}
+.price-wrapper:hover{
+    transform: scale(1.1);
+}
+.price-header{
+    margin: 1rem;
+    text-align: center;
+}
+.price-detail p{
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+.price-detail p:hover{
+    background-color: #d5d5d5;
+}
+.price-price{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+}
+.price-price p{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.price-price p sup,
+.price-price p sub
+{
+     font-size: 1rem; 
+}
+.price-header >img{
+    display: block;
+    margin: 0 auto;
+}
+.price-wrapper:hover .price-header h2{
+    transform: scale(1.1);
+    color: #966919;
+    letter-spacing: 2;
+}
+
+.price-btn{
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #966919 ;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.price-btn:hover{
+    border:  1px solid #fff;
+    background: black;
+    transition: 1s;
+    color: #fff;
+
+}
