@@ -36,6 +36,17 @@ nav{
     font-size: 13px;
 
 }
+.nav-links ul li ul{
+    position: absolute;
+    left:0;
+    width: 30px;
+    display: none;
+    
+}
+.nav-links ul li:hover ul{
+    display: block;
+}
+
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -110,6 +121,17 @@ nav{
     display: none;
 }
 @media(max-width: 700px){
+    .nav-links ul li ul{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    .nav-links ul li ul li ul{
+        top: 0;
+        left: 0px;
+       
+        
+    }
     body, html {
         overflow-x: hidden;
     }
@@ -725,3 +747,31 @@ nav{
     color: #fff;
 
 }
+
+/*LOCATIONS*/
+
+.Location-heading h1{
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Location-heading h1::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%);
+    width: 100px;
+    height: 5px;
+    background: #966919;
+
+
+}
+.cont-us p{
+    margin-bottom: 30px;
+}
+
